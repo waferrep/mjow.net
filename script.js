@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let speed = distance / deltaTime; // Pixels per second
 
             // Increase the speedup factor for more sensitivity
-            targetPlaybackRate = Math.min(Math.max(speed / 1000, 1), 5.2); // Clamp between 0.5x and 5x speed
+            targetPlaybackRate = Math.min(Math.max(speed / 600, 1), 15); // Clamp between 0.5x and 5x speed
         }
 
         lastX = event.clientX;
