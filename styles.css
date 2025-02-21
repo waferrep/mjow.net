@@ -1,0 +1,17 @@
+body {
+    background: url('assets/cat-hallway.gif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+a {
+    text-decoration: none;
+    color: darkmagenta;
+}
